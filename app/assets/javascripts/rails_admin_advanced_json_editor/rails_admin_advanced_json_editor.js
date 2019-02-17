@@ -4,7 +4,7 @@ $(function() {
 
   var editor = new JSONEditor(document.getElementById('advanced-json-editor-form'),{
     theme: 'bootstrap2',
-    disable_properties: true,
+    disable_properties: false,
     schema: JSON.parse( $('#schema-json input').val() )
   });
 
